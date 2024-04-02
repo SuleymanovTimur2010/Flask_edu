@@ -13,3 +13,4 @@ class Human(db.Model):
     country: str = db.Column(db.String(50), index=True, unique=False)
     bio: str = db.Column(db.String(10000), index=True, unique=False)
     datetime: str = db.Column(db.DateTime, default=datetime.utcnow)
+class flat()
